@@ -1,0 +1,85 @@
+body{
+    /* background: #094b5c; */
+    background-image: url('/assets/things-to-do.png') ;
+    background-repeat: no-repeat;
+    background-size :cover;
+    font-family: tahoma;
+    color: #e4dede;
+}
+
+#todo-table{
+    position: relative;
+    width: 83%;
+    background: #072f50dc;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#todo-table form:after{
+    margin: 0;
+    content: '';
+    display: block;
+    clear: both;
+}
+
+input[type="text"]{
+    width: 85.6%;
+    padding: 20px;
+    /* background:#2971a19c; */
+    background:#4f8b873d;
+    border: 0;
+    float: left;
+    font-size: 20px;
+    color: #e8eaf1;
+}
+
+button{
+    padding: 20px;
+    width: 11%;
+    float: left;
+    background: #047904;
+    border: 0;
+    transition-duration: 0.2s;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #049704;
+    color: white;
+  }
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: arial;
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+li:hover{
+    text-decoration: line-through;
+    background: rgba(0,0,0,0.2);
+}
+
+h1{
+    /* background: url(/assets/unnamed.png) no-repeat center 10px; */
+    margin-bottom: 0;
+    text-decoration: underline;
+    text-align: center;
+    font-size : 80px;
+    color: #043d3b;
+    text-indent: 100000000px center;
+    padding-bottom: 2%;
+}
